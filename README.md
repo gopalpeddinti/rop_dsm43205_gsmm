@@ -1,4 +1,4 @@
-# Rhodococcus opacus DSM43205 genome assembly, annotation, and metabolic model reconstruction
+# Rhodococcus opacus DSM43205 genome assembly, annotation, and metabolic model simulations
 
 This repository contains the _Rhodococcus opacus_ DSM43205 genome scale
 metabolic model in SBML format associated with the genome assembly available at
@@ -117,5 +117,7 @@ OUTPUT_SBML_FILE=e143388.xml
 
 carve "${PROTEIN_FASTA_FILE}" -o "${OUTPUT_SBML_FILE}"
 ```
+
+## Metabolic model simulations
 
 The code for metabolic model simulations are presented in the python notebook `ROP_simulations.ipynb`.
