@@ -118,3 +118,4 @@ OUTPUT_SBML_FILE=e143388.xml
 carve "${PROTEIN_FASTA_FILE}" -o "${OUTPUT_SBML_FILE}"
 ```
 
+The code for metabolic model simulations are presented in the python notebook `ROP_simulations.ipynb`.
