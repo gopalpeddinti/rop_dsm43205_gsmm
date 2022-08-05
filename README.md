@@ -120,4 +120,4 @@ carve "${PROTEIN_FASTA_FILE}" -o "${OUTPUT_SBML_FILE}"
 
 ## Metabolic model simulations
 
-The code for metabolic model simulations are presented in the python notebook `ROP_simulations.ipynb`.
+The code for metabolic model simulations is presented in the python notebook `ROP_simulations.ipynb`.
